@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>  <!-- Programa Gustavo Gallardo --> <!-- Programa Gustavo Gallardo -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta body{width:100%;}/>
+<title>login</title> 
+</head>
+
+<center><body oncontextmenu="return false" onkeydown="return true"  bgcolor="#EFF4F9"> SECRETARÍA DE GOBIERNO<br/> BIENVENIDO<br />  <br /> POR FAVOR LOGEARSE PARA PODER INGRESAR<br /><br /><br />
+     <img src="FONDO1.jpg"> 
+<SCRIPT  language=JavaScript>  
+function go(){
+    
+    if (document.form.password.value=='admin' && document.form.login.value=='admin'){ 
+        document.form.submit(); 
+    }
+    else if (document.form.password.value=='1' && document.form.login.value=='gustavo'){ 
+        document.form.submit(); 
+    } 
+    else if (document.form.password.value=='2' && document.form.login.value=='juan') {
+        document.form.submit();
+    }
+    else if (document.form.password.value=='3' && document.form.login.value=='marlon') {
+        document.form.submit();
+    } else{ 
+         alert("Porfavor ingrese, nombre de usuario y contraseña correctos.");  
+    }
+
+        
+} 
+</SCRIPT> 
+<FORM name=form action="Permiso.html">  
+    
+<P>Usuario:   <INPUT type=text name=login> 
+<P>Contraseña: <INPUT type=password name=password> <br /> <br />   
+<INPUT onclick=go() type=button value=Acceder> <br />  </center> 
+    <right><IMG SRC="FONDO2CASD.PNG"></right>  
+    
+
+</FORM> 
+</body>  <!-- Programa Gustavo Gallardo --> <!-- Programa Gustavo Gallardo -->
+</html>
